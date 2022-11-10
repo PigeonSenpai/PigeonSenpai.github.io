@@ -1,0 +1,36 @@
+/*
+Chris Carrico
+11/9/22
+*/
+
+body {
+    color: #ff0000;
+}
+
+a {
+    color: blue;
+}
+
+.intro {
+    font-size: 25px;
+    color: purple;
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.highlight{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.alert{
+    background: red;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.blue{
+    background: blue;
+}
