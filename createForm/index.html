@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!-- Chris Carrico 
+        11/14/22 -->
+
+<html lang="en">
+    <title> Form </title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="I'm Chris, a student software app designer Boise Idaho" />
+    <meta name="keywords" content="Form contact " />
+    <meta name="author" content="Chris Carrico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<body>
+
+    <form action="mailto:chriscarrico@my.cwi.edu?subject=Personal%20Portfolio%20Mail" enctype="text/plain" method="POST">
+        <!-- Group Fields Together, page 104 -->
+        <fieldset>
+        <legend>How do I contact you?</legend>
+
+
+
+            <!-- Company Select Box, page 97 -->
+            <div>
+                <label for="company">Company:</label>
+                <br><input size="35" type="text" name="wname" id="wname" placeholder="Workplace" required/>
+            </div>
+
+
+
+
+            <!-- Person to Contact Select Box, page 97 -->
+            <div>
+                <label for="name">Person to Contact:</label>
+                <br><input size="35" type="text" name="cname" id="cname" placeholder="Contact Point" required/>
+            </div>
+
+
+
+
+            <!-- Email, textbook file rental.html -->	
+            <!--Video 9.9 Building and Testing a Valid Form-->	
+            <div>
+                <label for="email">Email:</label>
+                <input size="28" type="email" name="email" id="email" placeholder="Email" required/>
+            </div>
+
+
+
+
+            <!-- Phone, textbook file rental.html-->
+            <!--Video 9.9 Building and Testing a Valid Form-->
+            <div>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="###-###-####" required/>
+            </div>
+        </fieldset>
+
+
+
+
+        <!-- Group Fields Together, page 104 -->
+        <fieldset>
+            <legend>What opportunities are available at your company?</legend>
+
+
+            
+            <!-- Select Box, page 98 -->
+            <div>
+                <label for="emplType">Type of Position:</label>
+                <select name="emplType">
+                    <option value="intern">Internship</option>
+                    <option value="employee">Employment</option>
+                </select>
+            </div>
+
+
+
+            <!-- Radio Buttons, page 99 -->
+            <div>
+                <p>Where did you hear about us?</p>
+                <input type="radio" name="source" id="linkedin-source" value="linkedin"/>
+                    <label for="linkedin">LinkedIn</label>
+                <input type="radio" name="source" id="jobfair-source" value="jobfair"/>
+                    <label for="jobfair">Job Fair</label>
+                <input type="radio" name="source" id="Partner-source" value="Partner"/>
+                    <label for="CWI-Partner">CWI Corporate Partner</label>
+            </div>
+            <div>
+
+
+
+                <!-- Text Area, textbook file code-9-1.html -->	
+                <textarea id="comment" name="comment" placeholder="Comments">Please apply, we need people</textarea>
+
+            </div>
+        </fieldset>
+		<input type="submit" id="submit" value="Submit" class="btn">
+
+</body>
+</html>
