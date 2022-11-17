@@ -1,0 +1,34 @@
+/*
+Chris Carrico
+11/17/22
+*/
+
+
+table {
+    width: 100%;
+    background-image: linear-gradient(#ffffff, #fcfaf6e5);
+
+    border-collapse: collapse;
+
+    border-color: #ffba85; 
+    border-style: solid;
+
+    color: #000000;
+
+    margin-bottom: 20px;    
+    border-width: 2px;
+
+
+  }
+  
+  table td, th {
+    border-width: 2px;
+    border-color: #ffba85;
+    border-style: solid;
+    padding: 15px;
+  }
+  
+  table thead {
+    background-color: #ffba85;
+  }
+  
