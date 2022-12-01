@@ -1,0 +1,59 @@
+
+
+
+.contact {
+    left: 5%;
+    right: 5%;
+    position: absolute;
+    text-align: center;
+    font-family: "Verdana", sans-serif;
+    font-size:75px;
+    color: #fff;
+    margin-left: 5%;
+    margin-right: 5%;
+    z-index: 5;
+  }
+
+
+.contact input, select, textarea{
+  color: #ff0000;
+  background-color: rgb(165, 155, 255);
+  height:100px;
+  font-size:20pt;
+
+}
+
+.contact textarea {
+  height:100px;
+  width: 89%;
+  font-size: 25px;
+  border-radius: 20px;
+
+}
+
+.contact  input[type='radio'] { 
+  transform: scale(3); 
+}
+.contact input {
+  border-radius: 20px;
+}
+
+#submit {
+  width: 200px;
+  height: 200px;
+  animation: switch 4s infinite;
+
+}
+@keyframes switch {
+
+  0% {
+        background: rgba(255, 0, 230, 0.576);
+    }
+    50% {
+        background: rgb(64, 0, 192);
+    }
+    100% {
+        background: rgba(255, 0, 230, 0.576);
+    }
+
+}

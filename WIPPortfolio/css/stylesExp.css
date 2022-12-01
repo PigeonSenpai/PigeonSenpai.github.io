@@ -1,0 +1,42 @@
+
+
+tr{
+    color: rgb(0, 255, 0);
+    background: linear-gradient(#f202ff65, #ffecfe00);
+}
+.tableclass{
+    position: relative;
+    width: 700px;
+    height: 1100px;
+    text-align: center;
+    border-radius: 25px;
+    margin: 50px auto;
+    margin-top: 2%;
+    padding: 1rem;
+    color: white;
+    border-width: 3px;
+    border-style: solid;
+    border-image: 
+    linear-gradient(#f202ff, #ffc2fc00) 1 100%;
+}
+
+.projects{
+    display: flex;
+    justify-content: left;
+    justify-content: space-around;
+    background: transparent;
+    border: 10px;
+    margin-left: 1%;
+    margin-right: 1%;
+    
+
+}
+
+.projects a{
+    font-family: "Audiowide", sans-serif;
+    font-size: 20px;
+}
+
+.projects iframe {
+    border: 0px;
+}
