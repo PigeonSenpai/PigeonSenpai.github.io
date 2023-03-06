@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!-- Chris Carrico 
+        1/29/23 -->
+
+<html lang="en">
+    <title> Home </title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Welcome!">
+    <meta name="keywords" content="index, home">
+    <meta name="author" content="Chris Carrico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    
+<body>
+    <video autoplay muted loop id="myVideo">
+    <source src="image/loginanim.mp4" type="video/mp4">
+    </video>
+
+    <header> 
+        <nav class="container">
+        <div class="home"><a href="index.html">Home</a></div> 
+        <div><a href="peak.html">Sneak peak</a></div>
+        <div><a href="faq.html">FAQ's</a></div>
+        <div><a href="contact.html">Pre-Register</a></div>
+        </nav>
+        </header>
+
+
+        <body>
+            <main>
+                <br>
+                <h1>Register for a sneak peak</h1>
+                <form action="confirm.html" method="get">
+                    <div>
+                        <label for="email_address">E-Mail:</label>
+                        <input type="text" name="email_address" id="email_address">
+                        <span>*</span>
+                    </div>
+                    <div>
+                        <label for="phone">Mobile Phone:</label>
+                        <input type="text" name="phone" id="phone">
+                        <span>*</span>
+                    </div>
+                    
+                    <div>
+                        <label>Contact me by:</label>
+                        <input type="radio" name="contact" id="text"
+                            value="text" checked>Text
+                        <input type="radio" name="contact" id="email"
+                            value="email">Email
+                        <input type="radio" name="contact" id="none"
+                            value="none">Don't contact me
+                    </div>
+                    <div>
+                        <label>Terms of Service:</label>
+                        <input type="checkbox" name="terms" id="terms"
+                            value="yes">I accept
+                        <span>*</span>
+                    </div>
+                    <div>
+                        <label>&nbsp;</label>
+                        <input type="button" id="register" value="Register">
+                        <input type="button" id="reset_form" value="Reset">
+                    </div>
+        
+                </form>
+            </main>
+            <script src="register.js"></script>
+        </body>
+            
+        <footer>
+</footer>
+</div>
+</body>   
+</html>
